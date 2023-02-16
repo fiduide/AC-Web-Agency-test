@@ -1,27 +1,26 @@
-
 /*
 Solution n°1
 We integrate all the elements in #footer  
 */
 #footer {
-	  text-shadow: 0.55rem 0.55rem #FFFFFF;
-	.form__footer {
-		margin: 1rem;
-		  text-shadow: 0.55rem 0.55rem #15FFF5;
-	}
-	.cgv__footer {
-		margin: 0.5rem;
-		  text-shadow: 0.55rem 0.55rem #15FFF5;
-		.button {
-			margin: 1rem;
-			padding: 1rem;
-			font-size: 1.5rem;
-		}
-	}
-	.cgu__footer {
-		margin: 0.5rem;
-		  text-shadow: 0.55rem 0.55rem #15FFF5;
-	}
+  text-shadow: 0.55rem 0.55rem #ffffff;
+  .form__footer {
+    margin: 1rem;
+    text-shadow: 0.55rem 0.55rem #15fff5;
+  }
+  .cgv__footer {
+    margin: 0.5rem;
+    text-shadow: 0.55rem 0.55rem #15fff5;
+    .button {
+      margin: 1rem;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+  .cgu__footer {
+    margin: 0.5rem;
+    text-shadow: 0.55rem 0.55rem #15fff5;
+  }
 }
 
 /*
@@ -30,23 +29,22 @@ We add .footer__shadow and integrate all element in.
 To avoid having to rewrite the text-shadow each time, we add it at the beginning of .footer__shadow and delete the other recurrences 
 */
 #footer {
-	  text-shadow: 0.55rem 0.55rem #FFFFFF;
-
+  text-shadow: 0.55rem 0.55rem #ffffff;
   .footer__shadow {
-		  text-shadow: 0.55rem 0.55rem #15FFF5;
-      .form__footer {
+    text-shadow: 0.55rem 0.55rem #15fff5;
+    .form__footer {
+      margin: 1rem;
+    }
+    .cgv__footer {
+      margin: 0.5rem;
+      .button {
         margin: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
       }
-      .cgv__footer {
-        margin: 0.5rem;
-        .button {
-          margin: 1rem;
-          padding: 1rem;
-          font-size: 1.5rem;
-        }
-      }
-      .cgu__footer {
-        margin: 0.5rem;
-      }
+    }
+    .cgu__footer {
+      margin: 0.5rem;
+    }
   }
 }
